@@ -1,0 +1,130 @@
+# Editor and OS files
+*.swp
+*.swo
+*~
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Ruby/Rails
+*.rbc
+*.sassc
+*.pid
+*.gem
+*.rvmrc
+.bundle/
+vendor/bundle/
+log/
+tmp/
+db/*.sqlite3*
+db/*.sqlite3-journal
+/public/assets
+/public/packs
+/public/packs-test
+/public/packs-dev
+/public/packs-prod
+/node_modules
+.byebug_history
+coverage/
+/spec/examples.txt
+
+# Credentials and secrets
+config/master.key
+config/credentials.yml.enc
+.env
+.env.*
+
+# Yarn and npm
+.yarn/
+.yarnrc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac system files
+Icon?
+
+# Docker
+*.pid
+
+# VS Code
+.history/
+
+# Ignore test coverage
+coverage/
+
+# Ignore asset cache
+.sprockets-manifest*
+
+# Ignore rails test files
+/spec/tmp
+
+# Ignore spring files
+.spring/
+
+# Ignore byebug command history
+.byebug_history
+
+# Ignore pry command history
+.pry_history
+
+# Ignore RuboCop cache
+.rubocop-https---*
+.rubocop_cache/
+
+# Ignore Capybara screenshots
+/tmp/capybara
+
+# Ignore SimpleCov coverage
+coverage/
+
+# Ignore backup files
+*.bak
+
+# Ignore local database
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore node modules
+node_modules/
+
+# Ignore yarn files
+yarn-error.log
+
+# Ignore pids
+*.pid
+
+# Ignore log files
+*.log
+log/
+
+# Ignore temp files
+tmp/
+
+# Ignore public assets
+/public/assets
+/public/packs
+/public/packs-test
+/public/packs-dev
+/public/packs-prod
+
+# Ignore system test screenshots
+/tmp/screenshots
+
+# Ignore custom environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore coverage reports
+coverage/
+
+# Ignore other temp files
+*.tmp
+
+# Ignore rails secret files
+config/credentials.yml.enc
+config/master.key
+storage
