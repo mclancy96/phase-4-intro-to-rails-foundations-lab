@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Use Rails 7.1.x
-gem "rails", "~> 7.1.0"
+gem "rails", "~> 8.0.2"
 gem "propshaft"
 gem "sqlite3", ">= 2.1"
 gem "puma", ">= 5.0"
